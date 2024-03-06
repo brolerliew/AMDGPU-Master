@@ -1,0 +1,12 @@
+prefix=/home/b/Qt/remoter/remoter_build/build/../../rootfs
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libdrm_intel
+Description: Userspace interface to intel kernel DRM services
+Version: 2.4.118
+Requires: libdrm
+Requires.private: pciaccess >=  0.10
+Libs: -L${libdir} -ldrm_intel
+Libs.private: -pthread
+Cflags: -I${includedir} -I${includedir}/libdrm

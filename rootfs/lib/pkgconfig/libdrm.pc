@@ -1,0 +1,10 @@
+prefix=/home/b/Qt/remoter/remoter_build/build/../../rootfs
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libdrm
+Description: Userspace interface to kernel DRM services
+Version: 2.4.118
+Libs: -L${libdir} -ldrm
+Libs.private: -lm
+Cflags: -I${includedir} -I${includedir}/libdrm

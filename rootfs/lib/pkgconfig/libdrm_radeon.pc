@@ -1,0 +1,11 @@
+prefix=/home/b/Qt/remoter/remoter_build/build/../../rootfs
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libdrm_radeon
+Description: Userspace interface to kernel DRM services for radeon
+Version: 2.4.118
+Requires.private: libdrm
+Libs: -L${libdir} -ldrm_radeon
+Libs.private: -pthread
+Cflags: -I${includedir} -I${includedir}/libdrm
