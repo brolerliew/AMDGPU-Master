@@ -6,15 +6,13 @@
 ## Screenshots 
 infos:
 
-![图片](https://github.com/brolerliew/AMDGPU-Master/assets/2776196/9af937aa-3d0d-4b05-a693-2d34250de56a)
-![图片](https://github.com/brolerliew/AMDGPU-Master/assets/2776196/b5c13582-3c80-47e0-b2b1-c150d3eda43e)
-![图片](https://github.com/brolerliew/AMDGPU-Master/assets/2776196/0c5b12be-9cd2-4443-b5f3-dd3f6e9ca6fb)
-![图片](https://github.com/brolerliew/AMDGPU-Master/assets/2776196/be1a1c1c-b8d8-4969-855b-b9b0c2bf6263)
-![图片](https://github.com/brolerliew/AMDGPU-Master/assets/2776196/c3681dfc-73bb-4e61-9f41-a0d8cdcb6d8c)
+![图片](pics/Graphics.png)
+![图片](pics/Mem.png)
+![图片](pics/VCE.png)
 
 status:
-![图片](https://github.com/brolerliew/AMDGPU-Master/assets/2776196/e4a254f0-ee28-4e64-9bfa-ca500c1ee78a)
-![图片](https://github.com/brolerliew/AMDGPU-Master/assets/2776196/d48089db-bcc1-4cfe-a336-d0593b73cedd)
+![图片](pics/Status_basic.png)
+![图片](pics/Status_advance.png)
 
 # Build
 rootfs directory is libraries and headers this repo used, including libdrm precompiled binary. This repo is developed on latest Ubuntu with KDE. You can always use libdrm-dev package on latest Ubuntu instead of the precompile one.
